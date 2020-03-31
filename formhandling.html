@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Form Handling</title>
+	</head>	
+	<body>
+		<form action='b.php' method="get">
+			Form handling-1(Simple calculator using switch case)</br>
+			number 1<input type="textbox" name=n1></br>
+			operator  <input type="textbox" name=op1 placeholder="+|-|/|*"></br>
+			number 2<input type="textbox" name=n2></br>
+			<button type="submit" name=calulate>Calculate</button>
+ 		</form>
+		<form action='f2.php' method="get">
+			form handling-2(display name and colors.)</br>
+			Enter Name<input type="textbox" name=n1></br>
+			select your favourite colors(ctrl+colors)</br>
+			<select name="colors[]" multiple size=6>
+  			<option value="Red" name=red>Red</option>
+			<option value="Green" name=green>Green</option>
+			<option value="Yellow" name=green>Yellow</option>
+			<option value="Blue" name=green>Blue</option>
+			<option value="Black" name=green>Black</option>
+			<option value="White" name=green>White</option>
+			</select></br>
+			<button type="submit" name='submit'>Done</button>
+ 		</form>
+		<form action='f3.php' method="get">
+			form handling-3(city selection)</br>
+			Select multiple cities using ctrl+click on city</br>
+			<select name="city[]" multiple size=9>
+  			<option value="Tokyo" name=Tokyo>Tokyo</option>
+			<option value="Mexico City" name=Mexico City>Mexico City</option>
+			<option value="New York City" name=New York City>New York City</option>
+			<option value="Seoul" name=Seoul>Seoul</option>
+			<option value="Shanghai" name=Shanghai>Shanghai</option>
+			<option value="Lagos" name=Lagos>Lagos</option>
+			<option value="Buenos Aires" name=Buenos Aires>Buenos Aires</option>
+			<option value="Cairo" name=Cairo>Cairo</option>
+			<option value="London" name=London>London</option>
+			</select></br>
+			<button type="submit" name='submit'>Done</button>
+ 		</form>
+	</body>
+	
+</html>
